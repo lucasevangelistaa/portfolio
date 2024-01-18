@@ -85,7 +85,85 @@
 
 /* Media Querie para Tablets */
 @media screen and (min-width: 501px) and (max-width: 900px) {
+        header {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 15px;
+    }
     
+    header div {
+        margin: auto;
+    }
+    .secao > div p {
+        font-size: 1.1em;
+        font-weight: bold;
+    }
+
+    header > nav a {
+        padding: 7px;
+    }
+
+    main {
+        width: 95vw;
+    }
+    main .content {
+        padding: 10px;
+    }
+
+    .imgbox img {
+        width: 60vw;
+    }
+
+    .content .botoes {
+        margin: 10px;
+    }
+    .content > .botoes a {
+        margin: 10px;
+        padding: 5px;
+    }
+
+    .container .cards {
+        width: 200px;
+    }
+    .container .cards img {
+        display: block;
+        margin: 10px auto;
+        width: 70px;
+    }
+
+    .sobre p {
+        margin: 20px auto;
+        width: 85vw;
+        padding: 15px;
+    }
+
+    .imagens img {
+        width: 20vw;
+    }
+
+    .iframesbox {
+        display: flex;
+        overflow-x: auto;
+    }
+    .iframesbox div {
+        margin: 15px;
+    }
+
+    .iconsbox .icone {
+        width: 85px;
+    }
+    iframe {
+        width: 250px;
+        border-radius: 10px;
+        height: 400px;
+    }
+
+    footer p {
+        margin: 10px;
+        text-align: center;
+    }
 }
 
 /* Media Querie para Desktop e telas maiores */
