@@ -1,20 +1,30 @@
 @import url('index.css');
 
 /* Media Querie para Dispositivos Móveis */
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 500px) {
     header {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
         padding: 15px;
     }
-
+    
+    header div {
+        margin: auto;
+    }
     .secao > div p {
+        font-size: 1.1em;
         font-weight: bold;
-        font-size: 1.2em;
     }
 
     header > nav a {
         padding: 7px;
     }
 
+    main {
+        width: 95vw;
+    }
     main .content {
         padding: 10px;
     }
@@ -27,18 +37,22 @@
         margin: 10px;
     }
     .content > .botoes a {
+        margin: 10px;
         padding: 5px;
     }
 
+    .container .cards {
+        width: 200px;
+    }
     .container .cards img {
         display: block;
         margin: 10px auto;
-        width: 80px;
+        width: 70px;
     }
 
     .sobre p {
         margin: 20px auto;
-        width: 75vw;
+        width: 85vw;
         padding: 15px;
     }
 
@@ -54,7 +68,11 @@
         margin: 15px;
     }
 
+    .iconsbox .icone {
+        width: 85px;
+    }
     iframe {
+        width: 250px;
         border-radius: 10px;
         height: 400px;
     }
@@ -65,10 +83,18 @@
     }
 }
 
-/* Media Querie para Telas maiores */
+/* Media Querie para Tablets */
+@media screen and (min-width: 501px) and (max-width: 900px) {
+    
+}
+
+/* Media Querie para Desktop e telas maiores */
 @media screen and (min-width: 621px) {
     header {
         padding: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .secao > div p {
@@ -81,6 +107,7 @@
     }
 
     main {
+        width: 90vw;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -94,6 +121,7 @@
     main .content {
         width: 50vw;
         padding: 15px;
+        margin: 20px;
     }
 
     .content h1 {
