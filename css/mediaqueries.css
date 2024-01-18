@@ -1,0 +1,185 @@
+@import url('index.css');
+
+/* Media Querie para Dispositivos Móveis */
+@media screen and (max-width: 620px) {
+    header {
+        padding: 15px;
+    }
+
+    .secao > div p {
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+
+    header > nav a {
+        padding: 7px;
+    }
+
+    main .content {
+        padding: 10px;
+    }
+
+    .imgbox img {
+        width: 60vw;
+    }
+
+    .content .botoes {
+        margin: 10px;
+    }
+    .content > .botoes a {
+        padding: 5px;
+    }
+
+    .container .cards img {
+        display: block;
+        margin: 10px auto;
+        width: 80px;
+    }
+
+    .sobre p {
+        margin: 20px auto;
+        width: 75vw;
+        padding: 15px;
+    }
+
+    .imagens img {
+        width: 20vw;
+    }
+
+    .iframesbox {
+        display: flex;
+        overflow-x: auto;
+    }
+    .iframesbox div {
+        margin: 15px;
+    }
+
+    iframe {
+        border-radius: 10px;
+        height: 400px;
+    }
+
+    footer p {
+        margin: 10px;
+        text-align: center;
+    }
+}
+
+/* Media Querie para Telas maiores */
+@media screen and (min-width: 621px) {
+    header {
+        padding: 30px;
+    }
+
+    .secao > div p {
+        font-weight: bold;
+        font-size: 2em;
+    }
+    header > nav a {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    main {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .imgbox img {
+        width: 400px;
+    }
+
+    main .content {
+        width: 50vw;
+        padding: 15px;
+    }
+
+    .content h1 {
+        font-size: 3em;
+    }
+
+    .content h3 {
+        font-size: 1.3em;
+    }
+
+    .content p {
+        margin-top: 10px;
+        font-size: 1.3em;
+    }
+
+    .content .botoes {
+        margin: 10px;
+        flex-wrap: wrap;
+    }
+
+    .content > .botoes a {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .container {
+        margin: auto;
+    }
+
+    .container > .cards img {
+        display: block;
+        margin: 15px auto;
+        width: 100px;
+    }
+
+    .container > .cards p {
+        margin: 10px;
+    }
+
+    .aboutbox {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .sobre p {
+        margin: 30px auto;
+        width: 50vw;
+        font-size: 1.5em;
+        padding: 20px;
+    }
+
+    .box .imagens {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .box > .imagens img {
+        width: 150px;
+    }
+
+    .iframesbox {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        overflow-x: auto;
+    }
+
+    .iframesbox div {
+        width: 450px;
+        margin: 20px;
+    }
+
+    iframe {
+        display: block;
+        margin: auto;
+        width: 400px;
+        height: 500px;
+        border-radius: 10px;
+    }
+
+    footer p {
+        margin: 10px;
+        text-align: center;
+    }
+}
