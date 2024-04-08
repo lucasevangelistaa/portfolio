@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
     // Adiciona animação de fade-in ao rolar a página
     window.addEventListener('scroll', () => {
-        document.querySelectorAll('.content, .stack, .sobre, .projetos, .contato').forEach(section => {
+        document.querySelectorAll('.content, .stack, .agencia, .projetos, .contato').forEach(section => {
             const position = section.getBoundingClientRect().top;
 
             if (position < window.innerHeight * 0.75) {
