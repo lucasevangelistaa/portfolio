@@ -54,11 +54,11 @@
         margin: 10px auto;
         width: 80px;
     }
-
-    .agencia p {
-        margin: 20px auto;
-        width: 85vw;
-        padding: 15px;
+    .agencia-pai {
+        margin: 20px;
+    }
+    .agencia-icons > a > img {
+        width: 30px;
     }
 
     .imagens img {
@@ -150,12 +150,13 @@
     }
 
     .agencia p {
-        margin: 20px auto;
         font-size: 1.4em;
         width: 85vw;
-        padding: 15px;
     }
 
+    .agencia-icons > a > img {
+        width: 40px;
+    }
 
     .iframesbox {
         display: flex;
@@ -254,12 +255,12 @@
     }
 
     .agencia p {
-        margin: 30px auto;
         width: 50vw;
         font-size: 1.5em;
-        padding: 20px;
     }
-
+    .agencia-icons > a > img {
+        width: 50px;
+    }
     .iframesbox {
         display: flex;
         overflow-x: auto;

@@ -153,11 +153,17 @@ main p {
 }
 .agencia p {
     text-align: justify;
-    border-radius: 15px 0px;
 }
+
 .agencia-box {
+    border-radius: 10px;
     background-color: var(--cor2);
     box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.096);
+    padding: 15px;
+    margin: 10px 0px 10px 0px;
+}
+.agencia-box h1,h2 {
+    text-align: left;
 }
 .agencia-icons img {
     width: 30px;
