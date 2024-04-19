@@ -49,3 +49,16 @@ document.addEventListener('DOMContentLoaded', function () {
         window.addEventListener('resize', adjustMainMargin);
     });
 })
+
+// Efeito Typing
+const text = "Olá, meu nome é Lucas e sou Dev Front-end.";
+
+let index = 0;
+function Typing() {
+    document.getElementById('typing-text').textContent += text[index];
+    index++;
+    if (index < text.length) {
+        setTimeout(Typing, 100); // Ajuste a velocidade de digitação aqui
+    }
+}
+Typing();
