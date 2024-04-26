@@ -263,6 +263,7 @@ main p {
 }
 
 iframe {
+    background-color: white;
     display: block;
     margin: auto;
     border-radius: 10px;
