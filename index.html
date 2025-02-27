@@ -1,193 +1,306 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <meta name="description" content="Portfólio de Lucas Evangelista - Desenvolvedor Front-end e Programador">
+    <meta name="keywords" content="desenvolvimento web, frontend, React.js, programação, portfólio, Lucas Evangelista">
+    <meta name="author" content="Lucas Evangelista">
+    <meta name="robots" content="index, follow">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#0d6efd">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <title>Portfólio - Lucas Evangelista</title>
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/mediaqueries.css">
-    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
-</head>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/mediaqueries.css" />
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon" />
+  </head>
 
-<body>
+  <body>
     <header class="secao">
-        <div>
-            <p>My Portfolio</p>
-        </div>
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#agencia">Agência</a>
-            <a href="#stack">Skills</a>
-            <a href="#projetos">Projetos</a>
-        </nav>
+      <div>
+        <p>My Portfolio</p>
+      </div>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#agencia">Agência</a>
+        <a href="#stack">Skills</a>
+        <a href="#projetos">Projetos</a>
+      </nav>
     </header>
     <h2>Welcome</h2>
     <main class="inicio visible">
-        <div class="imgbox">
-            <img src="imagens/myimg.jpg" alt="Minha foto">
+      <div class="imgbox">
+        <img src="imagens/myimg.jpg" alt="Minha foto" />
+      </div>
+      <section class="content" id="home">
+        <h1 id="typing-text"></h1>
+        <span id="cursor"></span>
+        <p>
+          Meu principal foco é o Front-end, e este é o meu Portfólio pessoal,
+          onde você poderá conhecer um pouco do meu trabalho. Aqui, encontrará
+          alguns dos trabalhos e projetos práticos que desenvolvi. Fique à
+          vontade para explorar meu Portfólio, pois estou muito feliz em
+          compartilhar um pouco do meu trabalho com você.
+        </p>
+        <div class="botoes">
+          <a
+            href="https://wa.me/5598984986243?text=Olá, gostaria de saber mais sobre o seu trabalho."
+            target="_blank"
+            >Fale comigo &#x27A1;</a
+          >
+          <a
+            href="curriculo/curriculo.pdf"
+            download="Curriculo.pdf"
+            type="application/pdf"
+            >Download CV</a
+          >
         </div>
-        <section class="content" id="home">
-            <h1 id="typing-text"></h1>
-            <span id="cursor"></span>
-            <p>Meu principal foco é o Front-end, e este é o meu Portfólio pessoal, onde você poderá conhecer um pouco do
-                meu trabalho. Aqui, encontrará alguns dos trabalhos e projetos práticos que desenvolvi. Fique à vontade
-                para explorar meu Portfólio, pois estou muito feliz em compartilhar um pouco do meu trabalho com você.
-            </p>
-            <div class="botoes">
-                <a href="https://wa.me/5598984986243?text=Olá, gostaria de saber mais sobre os seus trabalhos."
-                    target="_blank">Fale comigo &#x27A1;</a>
-                <a href="curriculo/curriculo.pdf" download="Curriculo.pdf" type="application/pdf">Download CV</a>
-            </div>
-        </section>
+      </section>
     </main>
     <section class="stack visible" id="stack">
-        <h2>Skill-sets + Competências</h2>
-        <div class="container">
-            <div class="cards">
-                <img src="imagens/html.png" alt="Logo HTML5">
-                <h3>HTML5</h3>
-                <p>Estrutura básica, tags e elementos essenciais, Acessibilidade, Validação e Semântica, Estilos e
-                    Integração com CSS3.</p>
-            </div>
-            <div class="cards">
-                <img src="imagens/css.png" alt="Logo CSS3">
-                <h3>CSS3</h3>
-                <p>Seletores, Box Model, Layouts Responsivos, Flex-box, Tipografia, Cores e Gradientes, Transições e
-                    Transformações e Organização.</p>
-            </div>
-            <div class="cards">
-                <img src="imagens/js.png" alt="Logo JavaScript">
-                <h3>JavaScript</h3>
-                <p>Sintaxe Básica, Estruturas de Controle, Funções, Arrays, Eventos e Manipulação de DOM.</p>
-            </div>
-            <div class="cards">
-                <img src="imagens/react.png" alt="Logo React.js">
-                <h3>React.js</h3>
-                <p>Componentes, Props e Fragments</p>
-            </div>
-            <div class="cards">
-                <img src="imagens/bootstrap.png" alt="Logo BootStrap">
-                <h3>BootStrap</h3>
-                <p>Grid system, Imagens Responsivas, Formulários, Estilização Responsiva e Modais.</p>
-            </div>
-            <div class="cards">
-                <img src="imagens/php.png" alt="Logo PHP">
-                <h3>PHP</h3>
-                <p>Sintaxe Básica, Strings, Formulários e Requisições HTTP.</p>
-            </div>
-            <div class="cards">
-                <img src="imagens/python.png" alt="Logo Python">
-                <h3>Python</h3>
-                <p>Sintaxe Básica, Estrutura de Dados, Funções, Orientação a Objetos, Strings, Bibliotecas Padrão,
-                    Tratamentos de erros, Módulos e Pacotes</p>
-            </div>
-            <div class="cards">
-                <img src="imagens/java.png" alt="Logo Java">
-                <h3>Java</h3>
-                <p>Sintaxe Básica e Manipulação de Strings</p>
-            </div>
-            <div class="cards">
-                <img src="imagens/mysql.png" alt="Logo MySQL">
-                <h3>MySQL</h3>
-                <p>Modelagem de Dados, SQL, Criação e Modificação de Tabelas, Realacionamentos entre Tabelas,
-                    Normalização e Constraints.</p>
-            </div>
+      <h2>Skill-sets + Competências</h2>
+      <div class="container">
+        <div class="cards">
+          <img src="imagens/html.png" alt="Logo HTML5" />
+          <h3>HTML5</h3>
+          <p>
+            Estrutura básica, tags e elementos essenciais, Acessibilidade,
+            Validação e Semântica, Estilos e Integração com CSS3.
+          </p>
         </div>
+        <div class="cards">
+          <img src="imagens/css.png" alt="Logo CSS3" />
+          <h3>CSS3</h3>
+          <p>
+            Seletores, Box Model, Layouts Responsivos, Flex-box, Tipografia,
+            Cores e Gradientes, Transições e Transformações, e Organização.
+          </p>
+        </div>
+        <div class="cards">
+          <img src="imagens/js.png" alt="Logo JavaScript" />
+          <h3>JavaScript</h3>
+          <p>
+            Sintaxe Básica, Estruturas de Controle, Funções, Arrays, Eventos e
+            Manipulação de DOM.
+          </p>
+        </div>
+        <div class="cards">
+          <img src="imagens/react.png" alt="Logo React.js" />
+          <h3>React.js</h3>
+          <p>Componentes, Props e Fragments</p>
+        </div>
+        <div class="cards">
+          <img src="imagens/bootstrap.png" alt="Logo BootStrap" />
+          <h3>BootStrap</h3>
+          <p>
+            Grid system, Imagens Responsivas, Formulários, Estilização
+            Responsiva e Modais.
+          </p>
+        </div>
+        <div class="cards">
+          <img src="imagens/php.png" alt="Logo PHP" />
+          <h3>PHP</h3>
+          <p>Sintaxe Básica, Strings, Formulários e Requisições HTTP.</p>
+        </div>
+        <div class="cards">
+          <img src="imagens/python.png" alt="Logo Python" />
+          <h3>Python</h3>
+          <p>
+            Sintaxe Básica, Estrutura de Dados, Funções, Orientação a Objetos,
+            Strings, Bibliotecas Padrão, Tratamentos de erros, Módulos e Pacotes
+          </p>
+        </div>
+        <div class="cards">
+          <img src="imagens/java.png" alt="Logo Java" />
+          <h3>Java</h3>
+          <p>Sintaxe Básica e Manipulação de Strings</p>
+        </div>
+        <div class="cards">
+          <img src="imagens/mysql.png" alt="Logo MySQL" />
+          <h3>SQL</h3>
+          <p>
+            Modelagem de Dados, SQL, Criação e Modificação de Tabelas,
+            Relacionamentos entre Tabelas, Normalização e Constraints.
+          </p>
+        </div>
+      </div>
     </section>
     <section class="agencia visible" id="agencia">
-        <h2>Agência Lucode</h2>
-        <div class="agencia-pai">
-            <img class="logo-lucode" src="imagens/4.jpg" alt="Logo Agência Lucode">
-            <div class="agencia-box">
-                <h1>Lucode</h1>
-                <h3>Tranformando ideias em pixel, um código de cada vez.</h3><br>
-                <p>Essa é minha agência especializada em criação de sites, estamos comprometidos em trazer sua visão para a vida digital com criatividade, inovação e precisão técnica. Na Lucode, acreditamos que cada projetos é único e merece uma abordagem personalizada.</p>
-                <div class="agencia-icons">
-                    <a href="https://wa.me/5598984986243?text=Ol%C3%A1%2C+gostaria+de+saber+mais+sobre+o+seu+trabalho." target="_blank">
-                        <img src="imagens/whatsapp02.png" alt="Ícone Whatsapp">
-                    </a>
-                    <a href="">
-                        <img src="imagens/gmail02.png" alt="Ícone E-mail">
-                    </a>
-                    <a href="https://instagram.com/_lucode" target="_blank">
-                        <img src="imagens/instagram02.png" alt="Ícone Instagram">
-                    </a>
-                    <a href="https://www.tiktok.com/@_lucode?_t=8lIptCzBnrq&_r=1" target="_blank">
-                        <img src="imagens/tik-tok02.png" alt="Ícone TikTok">
-                    </a>
-                </div>
-            </div>
+      <h2>Agência Lucode</h2>
+      <div class="agencia-pai">
+        <img
+          class="logo-lucode"
+          src="imagens/4.jpg"
+          alt="Logo Agência Lucode"
+        />
+        <div class="agencia-box">
+          <h1>Lucode</h1>
+          <h3>Tranformando ideias em pixel, um código de cada vez.</h3>
+          <br />
+          <p>
+            Essa é minha agência especializada em criação de sites, estamos
+            comprometidos em trazer sua visão para a vida digital com
+            criatividade, inovação e precisão técnica. Na Lucode, acreditamos
+            que cada projetos é único e merece uma abordagem personalizada.
+          </p>
+          <div class="agencia-icons">
+            <a
+              href="https://wa.me/5598984986243?text=Ol%C3%A1%2C+gostaria+de+saber+mais+sobre+o+seu+trabalho."
+              target="_blank"
+            >
+              <img src="imagens/whatsapp02.png" alt="Ícone Whatsapp" />
+            </a>
+            <a href="">
+              <img src="imagens/gmail02.png" alt="Ícone E-mail" />
+            </a>
+            <a href="https://instagram.com/_lucode" target="_blank">
+              <img src="imagens/instagram02.png" alt="Ícone Instagram" />
+            </a>
+            <a
+              href="https://www.tiktok.com/@_lucode?_t=8lIptCzBnrq&_r=1"
+              target="_blank"
+            >
+              <img src="imagens/tik-tok02.png" alt="Ícone TikTok" />
+            </a>
+          </div>
         </div>
+      </div>
     </section>
     <section class="projetos visible" id="projetos">
-        <h2>Projetos - Trabalhos Concluídos</h2>
-        <div class="iframesbox">
-            <div>
-                <iframe src="https://lucasevangelistaa.github.io/barber" frameborder="0"></iframe>
-                <h3>Calculadora de Notas</h3>
-                <p>Criei esse Site para praticar novos conhecimentos, para colocar no meu GitHub. E também para divulgar meu trabalho como Dev nas Redes Sociais.</p>
-                <a href="https://lucasevangelistaa.github.io/barber" target="_blank">Ver prejeto</a>
-            </div>
-            <div>
-                <iframe src="https://lucasevangelistaa.github.io/notas" frameborder="0"></iframe>
-                <h3>Calculadora de Notas</h3>
-                <p>Eu criei esse mini-sistema de Notas com o intuito de ajudar meus colegas da escola, onde muitos
-                    tinham dificuldade em fazer o calculo de suas notas, quanto precisa tirar e tudo mais.</p>
-                <a href="https://lucasevangelistaa.github.io/notas" target="_blank">Ver prejeto</a>
-            </div>
-            <div>
-                <iframe src="https://lucasevangelistaa.github.io/projetofrutaria" frameborder="0"></iframe>
-                <h3>Site para Frutarias</h3>
-                <p>Criei esse site para práticar, meus conhecimentos em flex-box, resposividade e medias-queries.</p>
-                <a href="https://lucasevangelistaa.github.io/projetofrutaria" target="_blank">Ver prejeto</a>
-            </div>
-            <div>
-                <iframe src="https://lucasevangelistaa.github.io/calculadoraimc" frameborder="0"></iframe>
-                <h3>Calculadora de IMC</h3>
-                <p>Criei esse site para apresentação de um seminário do meu curso, uma calculadora de IMC, coloquei em prática meus conhecimentos em Lógica de Programação.</p>
-                <a href="https://lucasevangelistaa.github.io/calculadoraimc" target="_blank">Ver prejeto</a>
-            </div>
-            <div>
-                <iframe src="https://lucasevangelistaa.github.io/projeto-android" frameborder="0"></iframe>
-                <h3>BugDroid</h3>
-                <p>Esse site foi um dos desafios do Curso de Desenvolvimento Web que eu fiz.</p>
-                <a href="https://lucasevangelistaa.github.io/projeto-android" target="_blank">Ver prejeto</a>
-            </div>
-            <div>
-                <iframe src="https://lucasevangelistaa.github.io/projeto-cordel" frameborder="0"></iframe>
-                <h3>Cordel Moderno</h3>
-                <p>Esse site foi um dos desafios do Curso de Desenvolvimento Web que eu fiz.</p>
-                <a href="https://lucasevangelistaa.github.io/projeto-cordel" target="_blank">Ver prejeto</a>
-            </div>
-        </div>
-    </section>
-    <footer class="contato visible" id="contato">
-        <h2>Fale comigo</h2>
-        <p id="redesociais">Acesse minhas Redes socias e venha conhecer mais um pouco do meu trabalho.</p>
-        <div class="iconsbox">
-            <div class="icone">
-                <a href="https://github.com/lucasevangelistaa" target="_blank"><img src="imagens/github.png"
-                        alt="Icone GitHub"></a>
-            </div>
-            <div class="icone">
-                <a href="https://www.linkedin.com/in/lucas1108" target="_blank"><img
-                        src="imagens/linkedin.png" alt="Icone Linkedin"></a>
-            </div>
-            <div class="icone">
-                <a href="https://instagram.com/lucassss.lc" target="_blank"><img src="imagens/instagram.png"
-                        alt="Icone Instagram"></a>
-            </div>
-            <div class="icone">
-                <a href="https://twitter.com/lucassssdev" target="_blank"><img src="imagens/twitter.png"
-                        alt="Icone Twitter"></a>
-            </div>
+      <h2>Projetos - Trabalhos Concluídos</h2>
+      <div class="iframesbox">
+        <div>
+          <iframe
+            src="https://lucasevangelistaa.github.io/barber"
+            frameborder="0"
+          ></iframe>
+          <h3>Calculadora de Notas</h3>
+          <p>
+            Criei esse Site para praticar novos conhecimentos, para colocar no
+            meu GitHub. E também para divulgar meu trabalho como Dev nas Redes
+            Sociais.
+          </p>
+          <a href="https://lucasevangelistaa.github.io/barber" target="_blank"
+            >Ver projeto</a
+          >
         </div>
         <div>
-            <p>&copy;<span>Lucas Evangelista</span> - Dev Front-end.</p>
+          <iframe
+            src="https://lucasevangelistaa.github.io/notas"
+            frameborder="0"
+          ></iframe>
+          <h3>Calculadora de Notas</h3>
+          <p>
+            Criei esse mini-sistema de Notas com o intuito de ajudar meus
+            colegas da escola, onde muitos tinham dificuldade em fazer o calculo
+            de suas notas, quanto precisa tirar e tudo mais.
+          </p>
+          <a href="https://lucasevangelistaa.github.io/notas" target="_blank"
+            >Ver projeto</a
+          >
         </div>
+        <div>
+          <iframe
+            src="https://lucasevangelistaa.github.io/projetofrutaria"
+            frameborder="0"
+          ></iframe>
+          <h3>Site para Frutarias</h3>
+          <p>
+            Criei esse site para praticar, meus conhecimentos em flex-box,
+            resposividade e media-queries.
+          </p>
+          <a
+            href="https://lucasevangelistaa.github.io/projetofrutaria"
+            target="_blank"
+            >Ver projeto</a
+          >
+        </div>
+        <div>
+          <iframe
+            src="https://lucasevangelistaa.github.io/calculadoraimc"
+            frameborder="0"
+          ></iframe>
+          <h3>Calculadora de IMC</h3>
+          <p>
+            Criei esse site para apresentação de um seminário do meu curso, uma
+            calculadora de IMC, coloquei em prática meus conhecimentos em Lógica
+            de Programação.
+          </p>
+          <a
+            href="https://lucasevangelistaa.github.io/calculadoraimc"
+            target="_blank"
+            >Ver projeto</a
+          >
+        </div>
+        <div>
+          <iframe
+            src="https://lucasevangelistaa.github.io/projeto-android"
+            frameborder="0"
+          ></iframe>
+          <h3>BugDroid</h3>
+          <p>
+            Esse site foi um dos desafios do Curso de Desenvolvimento Web que eu
+            fiz.
+          </p>
+          <a
+            href="https://lucasevangelistaa.github.io/projeto-android"
+            target="_blank"
+            >Ver projeto</a
+          >
+        </div>
+        <div>
+          <iframe
+            src="https://lucasevangelistaa.github.io/projeto-cordel"
+            frameborder="0"
+          ></iframe>
+          <h3>Cordel Moderno</h3>
+          <p>
+            Esse site foi um dos desafios do Curso de Desenvolvimento Web que eu
+            fiz.
+          </p>
+          <a
+            href="https://lucasevangelistaa.github.io/projeto-cordel"
+            target="_blank"
+            >Ver projeto</a
+          >
+        </div>
+      </div>
+    </section>
+    <footer class="contato visible" id="contato">
+      <h2>Fale comigo</h2>
+      <p id="redesociais">
+        Acesse minhas Redes socias e venha conhecer mais um pouco do meu
+        trabalho.
+      </p>
+      <div class="iconsbox">
+        <div class="icone">
+          <a href="https://github.com/lucasevangelistaa" target="_blank"
+            ><img src="imagens/github.png" alt="Icone GitHub"
+          /></a>
+        </div>
+        <div class="icone">
+          <a href="https://www.linkedin.com/in/lucas1108" target="_blank"
+            ><img src="imagens/linkedin.png" alt="Icone Linkedin"
+          /></a>
+        </div>
+        <div class="icone">
+          <a href="https://instagram.com/lucassss.lc" target="_blank"
+            ><img src="imagens/instagram.png" alt="Icone Instagram"
+          /></a>
+        </div>
+        <div class="icone">
+          <a href="https://twitter.com/lucassssdev" target="_blank"
+            ><img src="imagens/twitter.png" alt="Icone Twitter"
+          /></a>
+        </div>
+      </div>
+      <div>
+        <p>&copy;<span>Lucas Evangelista</span> - Dev Front-end.</p>
+      </div>
     </footer>
     <script src="js/scripts.js"></script>
-</body>
-
+  </body>
 </html>
