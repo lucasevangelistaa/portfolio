@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cards {
+  background: rgba(0, 4, 53, 0.171); /* Fundo semi-transparente */
+  backdrop-filter: blur(20px); /* Efeito de desfoque */
+}
+
+/* Barra de rolagem para navegadores baseados em WebKit (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f0f0;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3b82f6; /* Azul Tailwind (blue-500) */
+  border-radius: 20px;
+  border: 2px solid #f0f0f0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #2563eb; /* Azul Tailwind (blue-600) */
+}
+
+
+/* Flexibilidade no layout para telas menores */
+@media (max-width: 768px) {
+  .md\:hidden {
+    display: block;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .md\:text-left {
+    text-align: center;
+  }
+
+  .md\:w-1\/2 {
+    width: 100%;
+  }
+
+  .md\:mt-0 {
+    margin-top: 2rem;
+  }
+
+  .w-72 {
+    width: 200px;
+  }
+
+  .h-72 {
+    height: 200px;
+  }
+}
