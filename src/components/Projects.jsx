@@ -1,7 +1,9 @@
 import { FaHtml5, FaCss3Alt, FaJs, FaGithub, FaReact, FaBootstrap } from 'react-icons/fa';
+import { SiTailwindcss } from "react-icons/si";
 import comvesorImg from '../assets/conversor.png';
 import barberImg from '../assets/barber.png';
 import calculadorImg from '../assets/calculadora.png';
+import ptImg from '../assets/previsaotempo.png';
 
 const projectsData = [
   {
@@ -27,6 +29,14 @@ const projectsData = [
     technologies: [<FaHtml5 />, <FaCss3Alt />, <FaJs />],
     projectLink: 'https://lucasevangelistaa.github.io/notas/',
     repoLink: 'https://github.com/lucasevangelistaa/notas',
+  },
+  {
+    id: 4,
+    name: 'Previsão do Tempo',
+    image: ptImg,
+    technologies: [<FaHtml5 />, <FaCss3Alt />, <SiTailwindcss/>, <FaJs />, <FaReact />],
+    projectLink: 'https://previsao-tempo-wf.vercel.app/',
+    repoLink: 'https://github.com/lucasevangelistaa/previsao-tempo',
   },
 ];
 
