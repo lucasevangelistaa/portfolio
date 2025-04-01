@@ -4,6 +4,7 @@ import comvesorImg from '../assets/conversor.png';
 import barberImg from '../assets/barber.png';
 import calculadorImg from '../assets/calculadora.png';
 import ptImg from '../assets/previsaotempo.png';
+import movieList from '../assets/movie-list.png';
 
 const projectsData = [
   {
@@ -37,6 +38,14 @@ const projectsData = [
     technologies: [<FaHtml5 />, <FaCss3Alt />, <SiTailwindcss/>, <FaJs />, <FaReact />],
     projectLink: 'https://previsao-tempo-wf.vercel.app/',
     repoLink: 'https://github.com/lucasevangelistaa/previsao-tempo',
+  },
+  {
+    id: 5,
+    name: 'Lista de Filmes',
+    image: movieList,
+    technologies: [<FaHtml5 />, <FaCss3Alt />, <SiTailwindcss/>, <FaJs />, <FaReact />],
+    projectLink: 'https://movie-list-ml.vercel.app/',
+    repoLink: 'https://github.com/lucasevangelistaa/movie-list',
   },
 ];
 
