@@ -24,7 +24,10 @@ const Home = ({ darkMode }) => {
           Front-end Developer
         </h3>
         <p className="text-gray-400 text-center mx-auto max-w-xl mb-6">
-        Sou acadêmico em Análise e Desenvolvimento de Sistemas e, neste espaço, compartilho alguns dos projetos e trabalhos práticos que desenvolvi ao longo da minha trajetória. Fique à vontade para explorar meu portfólio e conhecer mais sobre minhas experiências.
+          Graduando em Ciência da Computação e, neste espaço, compartilho alguns
+          dos projetos e trabalhos práticos que desenvolvi ao longo da minha
+          trajetória. Fique à vontade para explorar meu portfólio e conhecer
+          mais sobre minhas experiências.
         </p>
         <SocialLinks />
         <a
