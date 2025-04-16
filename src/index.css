@@ -2,9 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+body {
+  position: relative;
+}
+
 .cards {
-  background: rgba(0, 4, 53, 0.171); /* Fundo semi-transparente */
-  backdrop-filter: blur(20px); /* Efeito de desfoque */
+  background: rgba(0, 4, 53, 0.171);
+  /* Fundo semi-transparente */
+  backdrop-filter: blur(20px);
+  /* Efeito de desfoque */
 }
 
 /* Barra de rolagem para navegadores baseados em WebKit (Chrome, Edge, Safari) */
@@ -17,13 +29,15 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #3b82f6; /* Azul Tailwind (blue-500) */
+  background-color: #3b82f6;
+  /* Azul Tailwind (blue-500) */
   border-radius: 20px;
   border: 2px solid #f0f0f0;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #2563eb; /* Azul Tailwind (blue-600) */
+  background-color: #2563eb;
+  /* Azul Tailwind (blue-600) */
 }
 
 
@@ -39,6 +53,10 @@
 
   .md\:text-left {
     text-align: center;
+  }
+
+  #home {
+    padding-top: 5rem;
   }
 
   .md\:w-1\/2 {

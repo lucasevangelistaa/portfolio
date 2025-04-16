@@ -1,10 +1,13 @@
-module.exports = {
-    content: [
-        "./index.html",
-        "./src/**/*.{js,jsx,ts,tsx}",
-    ],
-    theme: {
-        extend: {},
+export const content = [
+    "./index.html",
+    "./src/**/*.{js,jsx,ts,tsx}",
+];
+export const theme = {
+    extend: {
+        colors: {
+            primary: {
+            },
+        },
     },
-    plugins: [],
-}
+};
+export const plugins = [];

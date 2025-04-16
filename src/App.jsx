@@ -12,7 +12,11 @@ function App() {
   const ToggleDarkMode = () => setDarkMode(!darkMode);
 
   return (
-    <div className={`${darkMode ? "bg-gray-900 text-white" : "bg-white text-gray-900"} min-h-screen`}>
+    <div
+      className={`${
+        darkMode ? "bg-gray-900 text-white" : "bg-white text-gray-900"
+      } min-h-screen`}
+    >
       <Header darkMode={darkMode} ToggleDarkMode={ToggleDarkMode} />
       <Home darkMode={darkMode} />
       <Skills darkMode={darkMode} />
