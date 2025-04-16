@@ -22,4 +22,4 @@ Entre em contato comigo para projetos, parcerias ou só pra trocar ideia:
 
 - Email: lucasevangelistadra@gmail.com  
 - WhatsApp: (98) 98498-6243  
-- LinkedIn: [linkedin.com/in/lucasevangelista](https://linkedin.com/in/lucas1108)
+- LinkedIn: [linkedin.com/in/lucas1108](https://linkedin.com/in/lucas1108)
