@@ -3,6 +3,8 @@ import barberImg from '../assets/barber.png';
 import calculadoraImg from '../assets/calculadora.png';
 import previsaoImg from '../assets/previsaotempo.png';
 import movieListImg from '../assets/movie-list.png';
+import portfolioAcad from '../assets/portfolio-acad.png'
+import drNutri from '../assets/drnutri.png'
 
 
 export const techIcons = {
@@ -18,6 +20,24 @@ export const techIcons = {
 export const projectsData = [
     {
         id: 1,
+        name: 'Portfólio Acadêmico',
+        image: portfolioAcad,
+        technologies: ['HTML5', 'CSS3', 'JavaScript', 'React', 'TailwindCSS'],
+        projectLink: 'https://amanda-portfolio-acad.vercel.app/',
+        repoLink: 'https://github.com/lucasevangelistaa/amanda-portfolio',
+        description: 'Modelo de portfólio acadêmico moderno e organizado.'
+    },
+    {
+        id: 2,
+        name: 'DR Nutricionista',
+        image: drNutri,
+        technologies: ['HTML5', 'CSS3', 'JavaScript', 'React', 'TailwindCSS'],
+        projectLink: 'https://dr-nutricionista.vercel.app/',
+        repoLink: 'https://github.com/lucasevangelistaa/nutricionista',
+        description: 'Modelo de site profissional para especialistas em nutrição.'
+    },
+    {
+        id: 3,
         name: 'Conversor de Moedas',
         image: conversorImg,
         technologies: ['HTML5', 'CSS3', 'JavaScript', 'React'],
@@ -26,7 +46,7 @@ export const projectsData = [
         description: 'Um conversor de moedas que utiliza API para obter cotações em tempo real.'
     },
     {
-        id: 2,
+        id: 4,
         name: 'Barber Styles',
         image: barberImg,
         technologies: ['HTML5', 'CSS3', 'JavaScript', 'Bootstrap'],
@@ -35,7 +55,7 @@ export const projectsData = [
         description: 'Website para barbearia com agendamento online e galeria de trabalhos.'
     },
     {
-        id: 3,
+        id: 5,
         name: 'Calculadora de Notas',
         image: calculadoraImg,
         technologies: ['HTML5', 'CSS3', 'JavaScript'],
@@ -44,7 +64,7 @@ export const projectsData = [
         description: 'Projeto desenvolvido durante o curso de TI no IFMA: uma calculadora intuitiva que auxilia estudantes a calcular as notas necessárias para alcançar a média de aprovação.'
     },
     {
-        id: 4,
+        id: 6,
         name: 'Previsão do Tempo',
         image: previsaoImg,
         technologies: ['HTML5', 'CSS3', 'TailwindCSS', 'JavaScript', 'React'],
@@ -53,7 +73,7 @@ export const projectsData = [
         description: 'Aplicativo de previsão do tempo com busca por cidade e exibição de dados meteorológicos.'
     },
     {
-        id: 5,
+        id: 7,
         name: 'Lista de Filmes',
         image: movieListImg,
         technologies: ['HTML5', 'CSS3', 'TailwindCSS', 'JavaScript', 'React'],
