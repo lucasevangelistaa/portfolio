@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://lucas-evangelista-portfolio.vercel.app/sitemap.xml
+Sitemap: https://www.lucasevangelista.site/sitemap.xml

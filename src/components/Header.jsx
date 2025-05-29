@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { FaBars, FaTimes, FaSun, FaMoon } from "react-icons/fa";
 import { Link } from "react-scroll";
-import { motion } from "framer-motion";
+import { motion as Motion } from "framer-motion";
 
 const Header = ({ darkMode, ToggleDarkMode }) => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -74,7 +74,7 @@ const Header = ({ darkMode, ToggleDarkMode }) => {
           />
 
           {/* Conteúdo do menu */}
-          <motion.div
+          <Motion.div
             initial={{ x: "100%" }}
             animate={{ x: 0 }}
             exit={{ x: "100%" }}
@@ -108,7 +108,7 @@ const Header = ({ darkMode, ToggleDarkMode }) => {
                 {item.name}
               </Link>
             ))}
-          </motion.div>
+          </Motion.div>
         </div>
       )}
     </header>
